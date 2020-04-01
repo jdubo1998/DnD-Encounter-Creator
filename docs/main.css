@@ -2,6 +2,13 @@ div.encounter {
     border-style: inset;
 }
 
+button.encounter {
+    display: block;
+    margin: 0 auto; /* auto left/right margins */
+    margin-top: 10px;
+}
+
 div.dice {
     border-style: inset;
+    width: 15%;
 }
