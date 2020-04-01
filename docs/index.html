@@ -52,57 +52,99 @@
                 <button class="encounter" type="button">Create Encounter</button>
             </div>
 
-            <!--Dice Roller Frame-->
-            <div class="dice">
-                <h6># of Die/Type of Die</h6>
-                <form class="dice">
+            <!--Wrapper div so the dice and monster div will be next to one another-->
+            <div class="wrapper">
+                <!--Dice Roller Frame-->
+                <div class="dice">
+                    <h6># of Die/Type of Die</h6>
+                    <form class="dice">
+                        <table>
+                            <tr>
+                                <td>D4: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d4" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D6: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d6" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D8: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d8" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D10: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d10" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D12: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d12" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D20: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d20" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D100: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d100" />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div style="display: inline;"> <!--Get output to display next to button-->
+                        <button class="dice" type="button">Roll Dice</button>
+                        <p style="display: inline;">Dice Output: </p>
+                    </div>
+                </div>
+
+                <!--Place Holder Info for the prototype-->
+                <div class="monster">
                     <table>
-                        <tr>
-                            <td>D4: </td>
+                        <tr> <!--Stat Block Row-->
                             <td>
-                                <input class="dice" type="number" name="d4" />
+                                <img class="monster" src="../prototype-images/goblin.png">
+                            </td>
+                            <td>
+                                <img class="monster" src="../prototype-images/goblin.png">
+                            </td>
+                            <td>
+                                <img class="monster" src="../prototype-images/hobgoblin.png">
                             </td>
                         </tr>
-                        <tr>
-                            <td>D6: </td>
+                        <tr> <!--HP Control Row-->
                             <td>
-                                <input class="dice" type="number" name="d6" />
+                                <p>Current HP: 7</p>
+                                <button>+</button>
+                                <button>-</button>
                             </td>
-                        </tr>
-                        <tr>
-                            <td>D8: </td>
                             <td>
-                                <input class="dice" type="number" name="d8" />
+                                <p>Current HP: 7</p>
+                                <button>+</button>
+                                <button>-</button>
                             </td>
-                        </tr>
-                        <tr>
-                            <td>D10: </td>
                             <td>
-                                <input class="dice" type="number" name="d10" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>D12: </td>
-                            <td>
-                                <input class="dice" type="number" name="d12" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>D20: </td>
-                            <td>
-                                <input class="dice" type="number" name="d20" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>D100: </td>
-                            <td>
-                                <input class="dice" type="number" name="d100" />
+                                <p>Current HP: 11</p>
+                                <button>+</button>
+                                <button>-</button>
                             </td>
                         </tr>
                     </table>
-                </form>
-                <button class="dice" type="button">Roll Dice</button>
+                </div>
             </div>
-
+            <div class="music">
+                <h5>Music Player Here!</h5>
+            </div>
         </body>
 </html>

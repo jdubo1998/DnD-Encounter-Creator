@@ -8,7 +8,34 @@ button.encounter {
     margin-top: 10px;
 }
 
+div.wrapper {
+    overflow: hidden;
+}
+
 div.dice {
     border-style: inset;
     width: 15%;
+    float: left;
+}
+
+button.dice {
+    margin-top: 10px;
+    display: inline;
+}
+
+div.monster {
+    border-style: inset;
+    overflow: hidden;
+}
+
+img.monster {
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+}
+
+div.music {
+    border-style: inset;
+    width: 15%;
+    float: right;
 }
