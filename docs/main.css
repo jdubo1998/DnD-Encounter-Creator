@@ -33,8 +33,20 @@ img.monster {
     margin: 10px;
 }
 
+div.action {
+    border-style: inset;
+    width: 85%;
+    float: right;
+}
+
+img.action {
+    height: 100px;
+    width: 500px;
+    margin: 10px;
+}
+
 div.music {
     border-style: inset;
-    width: 15%;
+    width: 20%;
     float: right;
 }
