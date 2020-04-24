@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8"/>
+            <title>D&D Encounter Creator</title>
+
+            <!--CSS Link-->
+            <link rel="stylesheet" type="text/css" href="main.css">
+            <!-- Scripts -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+            <script src="js/DiceRolling.js"></script>
+            <script src="js/generator.js"></script>
+            <script src="js/textMod.js"></script>
+        </head>
+
+        <body>
+            <h3 style="text-align: center;">Dungeons and Dragons Encounter Creator</h3>
+            <button id="decrease" style="float: right;">Decrease Text Size</button>
+            <button id="increase" style="float: right;">Increase Text Size</button>
+            <!--Encounter Form-->
+            <div class="encounter">
+                <form id="encounter" action="#">
+                    <table>
+                        <tr>
+                            <td colspan="2"><b>Encounter Variables</b></td>
+                        </tr>
+                        <tr>
+                            <td>Number of Players: </td>
+                            <td>
+                                <input type="number" name="partySize" id="numPcs" />
+                            </td>
+                            <td>: # of Player Characters (PCs)</td>
+                        </tr>
+                        <tr>
+                            <td>Level: </td>
+                            <td>
+                                <input type="number" name="level" id="avgLvl"/>
+                            </td>
+                            <td>: Average level of PCs</td>
+                        </tr>
+                        <tr>
+                            <td>Environment: </td>
+                            <td>
+                                <!-- <input type="number" name="environment" id="env" /> -->
+                                <select class="encounter" id="env">
+                                    <option value="0">City</option>
+                                    <option value="1">Dungeon</option>
+                                    <option value="2">Forest</option>
+                                    <option value="3">Nature</option>
+                                    <option value="4">Other plane</option>
+                                    <option value="5">Underground</option>
+                                    <option value="6">Water</option>
+                                </select>
+                            </td>
+                            <td>: Select your environment</td>
+                        </tr>
+                        <tr>
+                            <td>Difficulty: </td>
+                            <td>
+                                <!-- <input type="number" name="difficulty" id="diff" /> -->
+                                <select class="encounter" id="diff">
+                                    <option value="1">Easy</option>
+                                    <option value="2">Medium</option>
+                                    <option value="3">Difficult</option>
+                                    <option value="4">Deadly</option>
+                                </select>
+                            </td>
+                            <td>: Select your difficulty</td>
+                        </tr>
+                    </table>
+                </form>
+                <button class="encounter" type="button" onclick="main(document.getElementById('numPcs').value, document.getElementById('avgLvl').value, document.getElementById('env').value, document.getElementById('diff').value);">Create Encounter</button>
+            </div>
+
+            <!--Wrapper div so the dice and monster div will be next to one another-->
+            <div class="wrapper">
+                <!--Dice Roller Frame-->
+                <div class="dice">
+                    <h4>Dice Rolls from Table</h4>
+                    <h5># of Die/Type of Die</h5>
+                    <form class="dice"  id="tableform">
+                        <table>
+                            <tr>
+                                <td>D4: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d4" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D6: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d6" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D8: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d8" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D10: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d10" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D12: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d12" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D20: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d20" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D100: </td>
+                                <td>
+                                    <input class="dice" type="number" name="d100" />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div style="display: inline;"> <!--Get output to display next to button-->
+                        <button class="dice" type="button" onclick="return tableDiceRoller();">Roll Dice</button>
+                        <p style="display: inline;">Dice Output: </p>
+                        <pre id="diceoutput" style="display: inline;" name="diceoutput"></pre>
+                    </div>
+                </div>
+                <div class="diceKeyboard">
+                    <h4 style="margin-bottom: 100px;">Dice Rolls from Keyboard</h4>
+                    <p>Please enter your set of dice rolls in the format (number of dice)d(number sides) + constant.</p>
+                    <p>Example: 20d6 + 10d6 + 5</p>
+                    <form name="search" onsubmit="getDiceRolls(this);" action="javascript:" id="theform">
+                        <input type="text" name="diceText" />
+                        <input style="margin-bottom: 70px;" type="submit" name="Submit" value="Submit" >
+                    </form>
+                </div>
+            </div>
+
+            <!--Place Holder Info for the prototype-->
+            <div class="monster">
+                <table>
+                    <tr id="monsterColumns"> <!--Stat Block Row-->
+                    </tr>
+                    <tr> <!--HP Control Row-->
+                        <td>
+                            <p>Current HP:</p>
+                            <input type="number" value="" />
+                        </td>
+                        <td>
+                            <p>Current HP:</p>
+                            <input type="number" value="" />
+                        </td>
+                        <td>
+                            <p>Current HP:</p>
+                            <input type="number" value="" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="music">
+				<div class="wrapper">
+					<div class="SCWidget">
+						<iframe id="SCiframe" scrolling="false" frameboarder="false" height="400px"
+						src="https://w.soundcloud.com/player/?url=https://soundcloud.com/kego-like/sets/fantasy-playlist&amp;
+						show_comments=false&amp;show_user=false&amp;buying=false&amp;sharing=false&amp;show_playcount=false&amp;
+						hide_related=true&amp;"
+						></iframe>
+					</div>
+					<input type="text" id="trackurl" onfocus="this.value=''" value="URL of Track or playlist."/>
+					<button type="button" id="playtrack">Play</button><br><br>
+					Up next:<br>
+					<div id="nextTitle"></div>
+					<button type="button" id="next">Next Track</button><br><br>
+					<input type="checkbox" id="shuffle">Shuffle</input>
+					<input type="checkbox" id="mute">Mute</input><br><br>
+					<div id="volume">Volume: 100%</div>
+					<input type="range" id="v_slider" value=100></input>
+				</div>
+				<script src="js/SoundCLoud_API.js"></script>
+			</div>
+        </body>
+</html>

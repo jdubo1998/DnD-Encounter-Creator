@@ -1,0 +1,1614 @@
+{
+  "monsters":[
+    {
+      "monster_name": "Aboleth",
+      "env": "City",
+      "xp": 5900
+    },
+    {
+      "monster_name": "Acolyte",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Adult Black Dragon",
+      "env": "Forest",
+      "xp": 11500
+    },
+    {
+      "monster_name": "Adult Blue Dragon",
+      "env": "Nature",
+      "xp": 15000
+    },
+    {
+      "monster_name": "Adult Brass Dragon",
+      "env": "Other plane",
+      "xp": 10000
+    },
+    {
+      "monster_name": "Adult Bronze Dragon",
+      "env": "Underground",
+      "xp": 13000
+    },
+    {
+      "monster_name": "Adult Copper Dragon",
+      "env": "Water",
+      "xp": 11500
+    },
+    {
+      "monster_name": "Adult Gold Dragon",
+      "env": "City",
+      "xp": 18000
+    },
+    {
+      "monster_name": "Adult Green Dragon",
+      "env": "Dungeon",
+      "xp": 13000
+    },
+    {
+      "monster_name": "Adult Red Dragon",
+      "env": "Forest",
+      "xp": 18000
+    },
+    {
+      "monster_name": "Adult Silver Dragon",
+      "env": "Nature",
+      "xp": 15000
+    },
+    {
+      "monster_name": "Adult White Dragon",
+      "env": "Other plane",
+      "xp": 10000
+    },
+    {
+      "monster_name": "Air Elemental",
+      "env": "Underground",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Ancient Black Dragon",
+      "env": "Water",
+      "xp": 33000
+    },
+    {
+      "monster_name": "Ancient Blue Dragon",
+      "env": "City",
+      "xp": 50000
+    },
+    {
+      "monster_name": "Ancient Brass Dragon",
+      "env": "Dungeon",
+      "xp": 25000
+    },
+    {
+      "monster_name": "Ancient Bronze Dragon",
+      "env": "Forest",
+      "xp": 41000
+    },
+    {
+      "monster_name": "Ancient Copper Dragon",
+      "env": "Nature",
+      "xp": 33000
+    },
+    {
+      "monster_name": "Ancient Gold Dragon",
+      "env": "Other plane",
+      "xp": 62000
+    },
+    {
+      "monster_name": "Ancient Green Dragon",
+      "env": "Underground",
+      "xp": 41000
+    },
+    {
+      "monster_name": "Ancient Red Dragon",
+      "env": "Water",
+      "xp": 62000
+    },
+    {
+      "monster_name": "Ancient Silver Dragon",
+      "env": "City",
+      "xp": 50000
+    },
+    {
+      "monster_name": "Ancient White Dragon",
+      "env": "Dungeon",
+      "xp": 25000
+    },
+    {
+      "monster_name": "Androsphinx",
+      "env": "Forest",
+      "xp": 18000
+    },
+    {
+      "monster_name": "Animated Armor",
+      "env": "Nature",
+      "xp": 200
+    },
+    {
+      "monster_name": "Ankheg",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Ape",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Archmage",
+      "env": "Water",
+      "xp": 8400
+    },
+    {
+      "monster_name": "Assassin",
+      "env": "City",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Awakened Shrub",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Awakened Tree",
+      "env": "Forest",
+      "xp": 450
+    },
+    {
+      "monster_name": "Axe Beak",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Azer",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Baboon",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Badger",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Balor",
+      "env": "City",
+      "xp": 22000
+    },
+    {
+      "monster_name": "Bandit",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Bandit Captain",
+      "env": "Forest",
+      "xp": 450
+    },
+    {
+      "monster_name": "Barbed Devil",
+      "env": "Nature",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Basilisk",
+      "env": "Other plane",
+      "xp": 700
+    },
+    {
+      "monster_name": "Bat",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Bearded Devil",
+      "env": "Water",
+      "xp": 700
+    },
+    {
+      "monster_name": "Behir",
+      "env": "City",
+      "xp": 7200
+    },
+    {
+      "monster_name": "Berserker",
+      "env": "Dungeon",
+      "xp": 450
+    },
+    {
+      "monster_name": "Black Bear",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Black Dragon Wyrmling",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Black Pudding",
+      "env": "Other plane",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Blink Dog",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Blood Hawk",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Blue Dragon Wyrmling",
+      "env": "City",
+      "xp": 700
+    },
+    {
+      "monster_name": "Boar",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Bone Devil",
+      "env": "Forest",
+      "xp": 8400
+    },
+    {
+      "monster_name": "Brass Dragon Wyrmling",
+      "env": "Nature",
+      "xp": 200
+    },
+    {
+      "monster_name": "Bronze Dragon Wyrmling",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Brown Bear",
+      "env": "Underground",
+      "xp": 200
+    },
+    {
+      "monster_name": "Bugbear",
+      "env": "Water",
+      "xp": 200
+    },
+    {
+      "monster_name": "Bulette",
+      "env": "City",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Camel",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Cat",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Centaur",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Chain Devil",
+      "env": "Other plane",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Chimera",
+      "env": "Underground",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Chuul",
+      "env": "Water",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Clay Golem",
+      "env": "City",
+      "xp": 5000
+    },
+    {
+      "monster_name": "Cloaker",
+      "env": "Dungeon",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Cloud Giant",
+      "env": "Forest",
+      "xp": 5000
+    },
+    {
+      "monster_name": "Cockatrice",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Commoner",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Constrictor Snake",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Copper Dragon Wyrmling",
+      "env": "Water",
+      "xp": 200
+    },
+    {
+      "monster_name": "Couatl",
+      "env": "City",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Crab",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Crocodile",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Cult Fanatic",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Cultist",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Darkmantle",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Death Dog",
+      "env": "Water",
+      "xp": 200
+    },
+    {
+      "monster_name": "Deep Gnome (Svirfneblin)",
+      "env": "City",
+      "xp": 100
+    },
+    {
+      "monster_name": "Deer",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Deva",
+      "env": "Forest",
+      "xp": 5900
+    },
+    {
+      "monster_name": "Dire Wolf",
+      "env": "Nature",
+      "xp": 200
+    },
+    {
+      "monster_name": "Djinni",
+      "env": "Other plane",
+      "xp": 7200
+    },
+    {
+      "monster_name": "Doppelganger",
+      "env": "Underground",
+      "xp": 700
+    },
+    {
+      "monster_name": "Draft Horse",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Dragon Turtle",
+      "env": "City",
+      "xp": 18000
+    },
+    {
+      "monster_name": "Dretch",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Drider",
+      "env": "Forest",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Drow",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Druid",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Dryad",
+      "env": "Underground",
+      "xp": 200
+    },
+    {
+      "monster_name": "Duergar",
+      "env": "Water",
+      "xp": 200
+    },
+    {
+      "monster_name": "Dust Mephit",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Eagle",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Earth Elemental",
+      "env": "Forest",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Efreeti",
+      "env": "Nature",
+      "xp": 7200
+    },
+    {
+      "monster_name": "Elephant",
+      "env": "Other plane",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Elk",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Erinyes",
+      "env": "Water",
+      "xp": 8400
+    },
+    {
+      "monster_name": "Ettercap",
+      "env": "City",
+      "xp": 450
+    },
+    {
+      "monster_name": "Ettin",
+      "env": "Dungeon",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Fire Elemental",
+      "env": "Forest",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Fire Giant",
+      "env": "Nature",
+      "xp": 5000
+    },
+    {
+      "monster_name": "Flesh Golem",
+      "env": "Other plane",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Flying Snake",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Flying Sword",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Frog",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Frost Giant",
+      "env": "Dungeon",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Gargoyle",
+      "env": "Forest",
+      "xp": 450
+    },
+    {
+      "monster_name": "Gelatinous Cube",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Ghast",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Ghost",
+      "env": "Underground",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Ghoul",
+      "env": "Water",
+      "xp": 200
+    },
+    {
+      "monster_name": "Giant Ape",
+      "env": "City",
+      "xp": 2900
+    },
+    {
+      "monster_name": "Giant Badger",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Bat",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Boar",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Giant Centipede",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Constrictor Snake",
+      "env": "Underground",
+      "xp": 450
+    },
+    {
+      "monster_name": "Giant Crab",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Crocodile",
+      "env": "City",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Giant Eagle",
+      "env": "Dungeon",
+      "xp": 200
+    },
+    {
+      "monster_name": "Giant Elk",
+      "env": "Forest",
+      "xp": 450
+    },
+    {
+      "monster_name": "Giant Fire Beetle",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Frog",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Goat",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Hyena",
+      "env": "Water",
+      "xp": 200
+    },
+    {
+      "monster_name": "Giant Lizard",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Octopus",
+      "env": "Dungeon",
+      "xp": 200
+    },
+    {
+      "monster_name": "Giant Owl",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Poisonous Snake",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Rat",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Rat (Diseased)",
+      "env": "Underground",
+      "xp": 25
+    },
+    {
+      "monster_name": "Giant Scorpion",
+      "env": "Water",
+      "xp": 700
+    },
+    {
+      "monster_name": "Giant Sea Horse",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Shark",
+      "env": "Dungeon",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Giant Spider",
+      "env": "Forest",
+      "xp": 200
+    },
+    {
+      "monster_name": "Giant Toad",
+      "env": "Nature",
+      "xp": 200
+    },
+    {
+      "monster_name": "Giant Vulture",
+      "env": "Other plane",
+      "xp": 200
+    },
+    {
+      "monster_name": "Giant Wasp",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Weasel",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Giant Wolf Spider",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Gibbering Mouther",
+      "env": "Dungeon",
+      "xp": 450
+    },
+    {
+      "monster_name": "Glabrezu",
+      "env": "Forest",
+      "xp": 5000
+    },
+    {
+      "monster_name": "Gladiator",
+      "env": "Nature",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Gnoll",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Goat",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Goblin",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Gold Dragon Wyrmling",
+      "env": "City",
+      "xp": 700
+    },
+    {
+      "monster_name": "Gorgon",
+      "env": "Dungeon",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Gray Ooze",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Green Dragon Wyrmling",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Green Hag",
+      "env": "Other plane",
+      "xp": 700
+    },
+    {
+      "monster_name": "Grick",
+      "env": "Underground",
+      "xp": 450
+    },
+    {
+      "monster_name": "Griffon",
+      "env": "Water",
+      "xp": 450
+    },
+    {
+      "monster_name": "Grimlock",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Guard",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Guardian Naga",
+      "env": "Forest",
+      "xp": 5900
+    },
+    {
+      "monster_name": "Gynosphinx",
+      "env": "Nature",
+      "xp": 7200
+    },
+    {
+      "monster_name": "Half-Red Dragon Veteran",
+      "env": "Other plane",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Harpy",
+      "env": "Underground",
+      "xp": 200
+    },
+    {
+      "monster_name": "Hawk",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Hell Hound",
+      "env": "City",
+      "xp": 700
+    },
+    {
+      "monster_name": "Hezrou",
+      "env": "Dungeon",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Hill Giant",
+      "env": "Forest",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Hippogriff",
+      "env": "Nature",
+      "xp": 200
+    },
+    {
+      "monster_name": "Hobgoblin",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Homunculus",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Horned Devil",
+      "env": "Water",
+      "xp": 7200
+    },
+    {
+      "monster_name": "Hunter Shark",
+      "env": "City",
+      "xp": 450
+    },
+    {
+      "monster_name": "Hydra",
+      "env": "Dungeon",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Hyena",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Ice Devil",
+      "env": "Nature",
+      "xp": 11500
+    },
+    {
+      "monster_name": "Ice Mephit",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Imp",
+      "env": "Underground",
+      "xp": 200
+    },
+    {
+      "monster_name": "Invisible Stalker",
+      "env": "Water",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Iron Golem",
+      "env": "City",
+      "xp": 15000
+    },
+    {
+      "monster_name": "Jackal",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Killer Whale",
+      "env": "Forest",
+      "xp": 700
+    },
+    {
+      "monster_name": "Knight",
+      "env": "Nature",
+      "xp": 700
+    },
+    {
+      "monster_name": "Kobold",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Kraken",
+      "env": "Underground",
+      "xp": 50000
+    },
+    {
+      "monster_name": "Lamia",
+      "env": "Water",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Lemure",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Lich",
+      "env": "Dungeon",
+      "xp": 33000
+    },
+    {
+      "monster_name": "Lion",
+      "env": "Forest",
+      "xp": 200
+    },
+    {
+      "monster_name": "Lizard",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Lizardfolk",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Mage",
+      "env": "Underground",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Magma Mephit",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Magmin",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Mammoth",
+      "env": "Dungeon",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Manticore",
+      "env": "Forest",
+      "xp": 700
+    },
+    {
+      "monster_name": "Marilith",
+      "env": "Nature",
+      "xp": 15000
+    },
+    {
+      "monster_name": "Mastiff",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Medusa",
+      "env": "Underground",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Merfolk",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Merrow",
+      "env": "City",
+      "xp": 450
+    },
+    {
+      "monster_name": "Mimic",
+      "env": "Dungeon",
+      "xp": 450
+    },
+    {
+      "monster_name": "Minotaur",
+      "env": "Forest",
+      "xp": 700
+    },
+    {
+      "monster_name": "Minotaur Skeleton",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Mule",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Mummy",
+      "env": "Underground",
+      "xp": 700
+    },
+    {
+      "monster_name": "Mummy Lord",
+      "env": "Water",
+      "xp": 13000
+    },
+    {
+      "monster_name": "Nalfeshnee",
+      "env": "City",
+      "xp": 10000
+    },
+    {
+      "monster_name": "Night Hag",
+      "env": "Dungeon",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Nightmare",
+      "env": "Forest",
+      "xp": 700
+    },
+    {
+      "monster_name": "Noble",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Ochre Jelly",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Octopus",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Ogre",
+      "env": "Water",
+      "xp": 450
+    },
+    {
+      "monster_name": "Ogre Zombie",
+      "env": "City",
+      "xp": 450
+    },
+    {
+      "monster_name": "Oni",
+      "env": "Dungeon",
+      "xp": 2900
+    },
+    {
+      "monster_name": "Orc",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Otyugh",
+      "env": "Nature",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Owl",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Owlbear",
+      "env": "Underground",
+      "xp": 700
+    },
+    {
+      "monster_name": "Panther",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Pegasus",
+      "env": "City",
+      "xp": 450
+    },
+    {
+      "monster_name": "Phase Spider",
+      "env": "Dungeon",
+      "xp": 700
+    },
+    {
+      "monster_name": "Pit Fiend",
+      "env": "Forest",
+      "xp": 25000
+    },
+    {
+      "monster_name": "Planetar",
+      "env": "Nature",
+      "xp": 15000
+    },
+    {
+      "monster_name": "Plesiosaurus",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Poisonous Snake",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Polar Bear",
+      "env": "Water",
+      "xp": 450
+    },
+    {
+      "monster_name": "Pony",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Priest",
+      "env": "Dungeon",
+      "xp": 450
+    },
+    {
+      "monster_name": "Pseudodragon",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Purple Worm",
+      "env": "Nature",
+      "xp": 13000
+    },
+    {
+      "monster_name": "Quasit",
+      "env": "Other plane",
+      "xp": 200
+    },
+    {
+      "monster_name": "Quipper",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Rakshasa",
+      "env": "Water",
+      "xp": 10000
+    },
+    {
+      "monster_name": "Rat",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Raven",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Red Dragon Wyrmling",
+      "env": "Forest",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Reef Shark",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Remorhaz",
+      "env": "Other plane",
+      "xp": 7200
+    },
+    {
+      "monster_name": "Rhinoceros",
+      "env": "Underground",
+      "xp": 450
+    },
+    {
+      "monster_name": "Riding Horse",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Roc",
+      "env": "City",
+      "xp": 7200
+    },
+    {
+      "monster_name": "Roper",
+      "env": "Dungeon",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Rug of Smothering",
+      "env": "Forest",
+      "xp": 450
+    },
+    {
+      "monster_name": "Rust Monster",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Saber-Toothed Tiger",
+      "env": "Other plane",
+      "xp": 450
+    },
+    {
+      "monster_name": "Sahuagin",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Salamander",
+      "env": "Water",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Satyr",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Scorpion",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Scout",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Sea Hag",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Sea Horse",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Shadow",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Shambling Mound",
+      "env": "Water",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Shield Guardian",
+      "env": "City",
+      "xp": 2900
+    },
+    {
+      "monster_name": "Shrieker",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Silver Dragon Wyrmling",
+      "env": "Forest",
+      "xp": 450
+    },
+    {
+      "monster_name": "Skeleton",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Solar",
+      "env": "Other plane",
+      "xp": 33000
+    },
+    {
+      "monster_name": "Specter",
+      "env": "Underground",
+      "xp": 200
+    },
+    {
+      "monster_name": "Spider",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Spirit Naga",
+      "env": "City",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Sprite",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Spy",
+      "env": "Forest",
+      "xp": 200
+    },
+    {
+      "monster_name": "Steam Mephit",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Stirge",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Stone Giant",
+      "env": "Underground",
+      "xp": 2900
+    },
+    {
+      "monster_name": "Stone Golem",
+      "env": "Water",
+      "xp": 5900
+    },
+    {
+      "monster_name": "Storm Giant",
+      "env": "City",
+      "xp": 10000
+    },
+    {
+      "monster_name": "Succubus/Incubus",
+      "env": "Dungeon",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Swarm of Bats",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Swarm of Beetles",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Swarm of Centipedes",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Swarm of Insects",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Swarm of Poisonous Snakes",
+      "env": "Water",
+      "xp": 450
+    },
+    {
+      "monster_name": "Swarm of Quippers",
+      "env": "City",
+      "xp": 200
+    },
+    {
+      "monster_name": "Swarm of Rats",
+      "env": "Dungeon",
+      "xp": 10
+    },
+    {
+      "monster_name": "Swarm of Ravens",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Swarm of Spiders",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Swarm of Wasps",
+      "env": "Other plane",
+      "xp": 10
+    },
+    {
+      "monster_name": "Tarrasque",
+      "env": "Underground",
+      "xp": 155000
+    },
+    {
+      "monster_name": "Thug",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Tiger",
+      "env": "City",
+      "xp": 200
+    },
+    {
+      "monster_name": "Treant",
+      "env": "Dungeon",
+      "xp": 5000
+    },
+    {
+      "monster_name": "Tribal Warrior",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Triceratops",
+      "env": "Nature",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Troll",
+      "env": "Other plane",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Tyrannosaurus Rex",
+      "env": "Underground",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Unicorn",
+      "env": "Water",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Vampire",
+      "env": "City",
+      "xp": 10000
+    },
+    {
+      "monster_name": "Vampire Spawn",
+      "env": "Dungeon",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Veteran",
+      "env": "Forest",
+      "xp": 700
+    },
+    {
+      "monster_name": "Violet Fungus",
+      "env": "Nature",
+      "xp": 10
+    },
+    {
+      "monster_name": "Vrock",
+      "env": "Other plane",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Vulture",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Warhorse",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Warhorse Skeleton",
+      "env": "City",
+      "xp": 10
+    },
+    {
+      "monster_name": "Water Elemental",
+      "env": "Dungeon",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Weasel",
+      "env": "Forest",
+      "xp": 10
+    },
+    {
+      "monster_name": "Werebear",
+      "env": "Nature",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Wereboar",
+      "env": "Other plane",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Wererat",
+      "env": "Underground",
+      "xp": 450
+    },
+    {
+      "monster_name": "Weretiger",
+      "env": "Water",
+      "xp": 1100
+    },
+    {
+      "monster_name": "Werewolf",
+      "env": "City",
+      "xp": 700
+    },
+    {
+      "monster_name": "White Dragon Wyrmling",
+      "env": "Dungeon",
+      "xp": 450
+    },
+    {
+      "monster_name": "Wight",
+      "env": "Forest",
+      "xp": 700
+    },
+    {
+      "monster_name": "Will-o'-Wisp",
+      "env": "Nature",
+      "xp": 450
+    },
+    {
+      "monster_name": "Winter Wolf",
+      "env": "Other plane",
+      "xp": 700
+    },
+    {
+      "monster_name": "Wolf",
+      "env": "Underground",
+      "xp": 10
+    },
+    {
+      "monster_name": "Worg",
+      "env": "Water",
+      "xp": 10
+    },
+    {
+      "monster_name": "Wraith",
+      "env": "City",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Wyvern",
+      "env": "Dungeon",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Xorn",
+      "env": "Forest",
+      "xp": 1800
+    },
+    {
+      "monster_name": "Young Black Dragon",
+      "env": "Nature",
+      "xp": 2900
+    },
+    {
+      "monster_name": "Young Blue Dragon",
+      "env": "Other plane",
+      "xp": 5000
+    },
+    {
+      "monster_name": "Young Brass Dragon",
+      "env": "Underground",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Young Bronze Dragon",
+      "env": "Water",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Young Copper Dragon",
+      "env": "City",
+      "xp": 2900
+    },
+    {
+      "monster_name": "Young Gold Dragon",
+      "env": "Dungeon",
+      "xp": 5900
+    },
+    {
+      "monster_name": "Young Green Dragon",
+      "env": "Forest",
+      "xp": 3900
+    },
+    {
+      "monster_name": "Young Red Dragon",
+      "env": "Nature",
+      "xp": 5900
+    },
+    {
+      "monster_name": "Young Silver Dragon",
+      "env": "Other plane",
+      "xp": 5000
+    },
+    {
+      "monster_name": "Young White Dragon",
+      "env": "Underground",
+      "xp": 2300
+    },
+    {
+      "monster_name": "Zombie",
+      "env": "Water",
+      "xp": 10
+    }
+  ]
+}

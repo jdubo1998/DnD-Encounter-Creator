@@ -1,0 +1,8 @@
+{
+  "name": "5e Dungeon Masters Resource",
+  "description": "Basic DM tool",
+  "repository": "",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
