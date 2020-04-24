@@ -8,8 +8,8 @@
             <link rel="stylesheet" type="text/css" href="main.css">
             <!-- Scripts -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-			<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
             <script src="js/DiceRolling.js"></script>
+			<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
             <script src="js/generator.js"></script>
             <script src="js/textMod.js"></script>
         </head>
@@ -145,21 +145,11 @@
             <!--Place Holder Info for the prototype-->
             <div class="monster">
                 <table>
+                    <tr id="InitiativeColumns"> <!--Initiative Control Row-->
+                    </tr>
                     <tr id="monsterColumns"> <!--Stat Block Row-->
                     </tr>
-                    <tr> <!--HP Control Row-->
-                        <td>
-                            <p>Current HP:</p>
-                            <input type="number" value="" />
-                        </td>
-                        <td>
-                            <p>Current HP:</p>
-                            <input type="number" value="" />
-                        </td>
-                        <td>
-                            <p>Current HP:</p>
-                            <input type="number" value="" />
-                        </td>
+                    <tr id="healthColumns"> <!--HP Control Row-->
                     </tr>
                 </table>
             </div>
