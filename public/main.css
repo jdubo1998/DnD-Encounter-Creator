@@ -43,6 +43,11 @@ div.monster {
 
 div.music {
     border-style: inset;
-    width: 20%;
+    width: 40%;
     float: right;
+}
+
+div.SCWidget {
+	float:left;
+	padding-right:5px;
 }
