@@ -15,6 +15,7 @@ document.getElementById('next').addEventListener("click", playNext);
 
 widget.bind(SC.Widget.Events.READY, onReady);
 widget.bind(SC.Widget.Events.FINISH, playNext);
+widget.bind(SC.Widget.Events.PLAY,function(){if(!shuffleCB.checked){setNext();}});
 
 var playlistlength;
 var nextIndex;
@@ -79,7 +80,6 @@ function shuffle() {
 }
 
 function trackfromplaylist() {
-	console.log("Hello anyone there?");
 	if (!shuffleCB.checked) {
 		setNext();
 	}
