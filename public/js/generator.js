@@ -32,8 +32,8 @@ function party_threshold(numPcs, avgLev, difficulty) {
 function load_monsters() {
     var xhr1 = new XMLHttpRequest();
     var destURL = "";
-    destURL = 'https://dungeons-and-dragons-encounter.herokuapp.com/monsters.json'
-    //destURL = 'http://localhost:5000/monsters.json'//only for debug
+    //destURL = 'https://dungeons-and-dragons-encounter.herokuapp.com/monsters.json'
+    destURL = 'http://localhost:5000/monsters.json'//only for debug
     xhr1.open('GET', destURL, false);
     xhr1.send();
     if (xhr1.readyState == 4 && xhr1.status == 200) {
@@ -180,8 +180,8 @@ function parseMonsterArr(monsterArr){
 }
 function getStatblockTemplate(){
     var xhr1 = new XMLHttpRequest();
-    xhr1.open('GET', "https://dungeons-and-dragons-encounter.herokuapp.com/statblocktemplate.html", false);
-    //xhr1.open('GET', "http://localhost:5000/statblocktemplate.html", false);//for testing
+    //xhr1.open('GET', "https://dungeons-and-dragons-encounter.herokuapp.com/statblocktemplate.html", false);
+    xhr1.open('GET', "http://localhost:5000/statblocktemplate.html", false);//for testing
     xhr1.send();
     if (xhr1.readyState == 4 && xhr1.status == 200) {
         var response = xhr1.responseText;
@@ -409,8 +409,8 @@ function getInitiativeString(modifier, index){
 }
 function getInitiativeTemplate(){
     var xhr1 = new XMLHttpRequest();
-    xhr1.open('GET', "https://dungeons-and-dragons-encounter.herokuapp.com/initiativeTemplate.html", false);
-    //xhr1.open('GET', "http://localhost:5000/initiativeTemplate.html", false);//for testing
+    //xhr1.open('GET', "https://dungeons-and-dragons-encounter.herokuapp.com/initiativeTemplate.html", false);
+    xhr1.open('GET', "http://localhost:5000/initiativeTemplate.html", false);//for testing
     xhr1.send();
     if (xhr1.readyState == 4 && xhr1.status == 200) {
         var response = xhr1.responseText;
@@ -434,8 +434,8 @@ function updateInitiative(modifier, index){
 
 function getHealthTemplate(){
     var xhr1 = new XMLHttpRequest();
-    xhr1.open('GET', "https://dungeons-and-dragons-encounter.herokuapp.com/healthTemplate.html", false);
-    //xhr1.open('GET', "http://localhost:5000/healthTemplate.html", false);//for testing
+    //xhr1.open('GET', "https://dungeons-and-dragons-encounter.herokuapp.com/healthTemplate.html", false);
+    xhr1.open('GET', "http://localhost:5000/healthTemplate.html", false);//for testing
     xhr1.send();
     if (xhr1.readyState == 4 && xhr1.status == 200) {
         var response = xhr1.responseText;
